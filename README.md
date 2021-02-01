@@ -1,4 +1,3 @@
 # Breakthrough Fellowship
 
-# Instructions
-Clone this repository to your local computer (you will need git installed)
+## If you see this, it means you successfully get the update
