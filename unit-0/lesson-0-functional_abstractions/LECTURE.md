@@ -37,6 +37,8 @@
 * **Video:** [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY)
 * [**Lesson Slides**](https://docs.google.com/presentation/d/1RUpXYitB22t3G3qi2-cK09imsJ1oVi0nPiqYFBNSX7A/edit?usp=sharing')
 
+## Lecture Recording
+* [Link](https://us02web.zoom.us/rec/share/HcHGb53gIUtVJTUo635NtiADnf1aFv1rl1sFRM7NVB95WKlr82bOkjODieUVrqf0.jx6FUI7C6YBpSbBh)
 
 ## Learning Labs
 * [Array Methods Practice 1 - Iteration, Map, Filter, Reduce](./labs/map-filter-reduce.md)
