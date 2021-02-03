@@ -14,8 +14,9 @@
 * What is encapsulation?
 * What is the purpose of getter and setter methods?
 
-## Lecture Slides
-* [Link](https://docs.google.com/presentation/d/1MuvLO1HL0pnxZp-a5DmIZh6Kgp1Jme9KgEPYEyXV27w/edit?usp=sharing)
+## Lecture
+* [Slides](https://docs.google.com/presentation/d/1MuvLO1HL0pnxZp-a5DmIZh6Kgp1Jme9KgEPYEyXV27w/edit?usp=sharing)
+* [Video](https://us02web.zoom.us/rec/share/ojbyI7VDPwh855WpbCjbp5XGH0toUbx1UjgIaN9oLRW0_fkwW9r1HE4vzgsbKA4H.AGpvgO5OXY4vTLUR)
 
 ## Learning Assignments
 * **Article**: [Claseses](https://javascript.info/class)
