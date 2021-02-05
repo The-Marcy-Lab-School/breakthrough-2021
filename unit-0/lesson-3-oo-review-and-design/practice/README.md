@@ -6,15 +6,15 @@ Your solution should encompass
 
 Users
     Properties
-    - id
-    - first name 
-    - last name
-    - email
-    - password
-    - credit card
-    - cart
+    1. id
+    2. first name 
+    3. last name
+    4. email
+    5. password
+    6. credit card
+    7. cart
     Abilities
-    - Add item to cart
+    1. Add item to cart
     - abandon cart
     - leave a review
     - checkout
