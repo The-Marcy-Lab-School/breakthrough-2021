@@ -19,6 +19,7 @@
 ## Lesson
 
 - [Slides](https://docs.google.com/presentation/d/1oTspbDilo0hC46-lrN2jGBL-4Rkbf8gDNt36e6WgoEk/edit?usp=sharing)
+- [Video](https://us02web.zoom.us/rec/share/JvgUoFgBomqnKfnvqE_m6831PbVGyNw09oQ9Fu_57R4-eMIvZc6Vyjr0jem6-I3m.dFo7x1ifUUD96_vg)
 
 ## Learning Assignments
 
