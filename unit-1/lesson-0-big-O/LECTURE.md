@@ -21,6 +21,7 @@
 
 - [Slides](https://docs.google.com/presentation/d/12Q1c4vNmCDz6AF4cdkyE4p3f1c7eQaaAtT3EnNmDGkg/edit?usp=sharing)
 - [Recording](https://us02web.zoom.us/rec/share/x-Jo3x-VbCh3SiOxCodLFDHLHPDPWqKxleyK5fmY_HKZ9de_fyaqQt8kWCEi28SU.UfDiqevpPmrkfOAA)
+- [Lab Review](https://us02web.zoom.us/rec/share/xQo5S9PHFSzCIeTKkDk8qxII3j0oipisuNkbT9SSarVCcqRf74XR_WakH4rP8yUm.ORgB0H9xyceQDWLO)
 
 ## Practice
 
