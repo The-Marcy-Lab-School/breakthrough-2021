@@ -20,6 +20,7 @@
 ## Lecture
 
 - [Slides](https://docs.google.com/presentation/d/12Q1c4vNmCDz6AF4cdkyE4p3f1c7eQaaAtT3EnNmDGkg/edit?usp=sharing)
+- [Recording](https://us02web.zoom.us/rec/share/x-Jo3x-VbCh3SiOxCodLFDHLHPDPWqKxleyK5fmY_HKZ9de_fyaqQt8kWCEi28SU.UfDiqevpPmrkfOAA)
 
 ## Practice
 
