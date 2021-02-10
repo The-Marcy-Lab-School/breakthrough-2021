@@ -102,6 +102,10 @@
 - dequeue()
 - peek()
 
+## Lecture
+
+- [Video](https://us02web.zoom.us/rec/share/vK2YiqjgSXPbon1AtyAgcwlQ6wSgPk7RhOLUJdLhcXav4kZJpiwHeyJXABjdj_n3.AIl5IW5bu_iIwOXZ)
+
 ## Learning Assignments
 
 - **Codecademy:** [Pass the Technical Interview with JavaScript](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-javascript)
