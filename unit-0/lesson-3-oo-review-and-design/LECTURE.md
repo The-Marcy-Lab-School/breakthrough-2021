@@ -7,5 +7,7 @@
 * [Video: Design Patterns Video Tutorial](https://www.youtube.com/watch?v=vNHpsC5ng_E)
 * [Video: OO Design - Inheritance](https://www.youtube.com/watch?v=oZcLmje8-fg)
 
+## Lecture
+* [Recording](https://us02web.zoom.us/rec/share/xGYNRBK_1kBzQ8GNRlf3qHPzKiaHWyP28WsxFGAOzoDcjVmUpDkMfS6dThN1vg_d.hWPZZzZeMsqY1YIV)
 ## Practice
 * [Build an Amazon Store](./practice)
