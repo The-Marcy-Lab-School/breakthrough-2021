@@ -17,7 +17,7 @@
 
 ## Lecture
 
-- [Slides](https://docs.google.com/presentation/d/1FyIMw-qcg_uBIAmG9Yxu9Hs1jY2ft-atP-ZEYh5hoG0/edit#slide=id.g6b25b5dada_2_76)
+- [Slides](https://docs.google.com/presentation/d/1FyIMw-qcg_uBIAmG9Yxu9Hs1jY2ft-atP-ZEYh5hoG0/edit?usp=sharing)
 - [Recording](https://us02web.zoom.us/rec/share/x053q_kZMV9N-XQJ-6mMhvsEmGvNGkSVpgQT_UMgrz95_VgARW5uFDLitVUc9aMb.FV76_yaCZ626WkXK)
 
 ## Learning Assignments
