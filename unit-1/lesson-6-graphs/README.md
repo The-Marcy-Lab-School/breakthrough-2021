@@ -18,6 +18,11 @@
 - Cycle
 - Adjacency list
 
+## Lesson
+- [Slides](https://docs.google.com/presentation/d/1E5lQ2JHP_UC-tpy87lgbuc7YssBVS43FuVdvmuHxjTo/edit?usp=sharing)
+- [Lecture](https://us02web.zoom.us/rec/share/u7ed6IAgdeG_4fTu4zOWu2PCyKILZbMovRrRuNF60PtWDLC7w0mJgDOHb3lnoPas.h0jU7QrDCwhUG1Gn)
+- [Lab Review](https://us02web.zoom.us/rec/share/tXId5bcaO6IIHd_4IGpcjlxoSKlXi8WFcT3GplIMhnqKdf1IY9lFZDNW9QXZb_bQ.UNA5iOHkhqWeV25J)
+
 ## Learning Assignments
 
 - **Codecademy:** [Pass the Technical Interview with JavaScript](https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-javascript)
