@@ -16,7 +16,7 @@
 ## Lesson
 
 - [Slides](https://docs.google.com/presentation/d/1skFuSkYeeJaE0nCvYi3HcQiCEU5yFeNrXBoQ5XbqLOs/edit?usp=sharing)
-- [Lecture]()
+- [Lecture](https://us02web.zoom.us/rec/share/kLdMS2by8RX4s4nr1xPUaid9LaelqznOL7-76sIh19pVswYqBrCwV_cWG-D3dDFM.TReugKuSXQJjAsvv)
 
 ## Learning Assignments
 
