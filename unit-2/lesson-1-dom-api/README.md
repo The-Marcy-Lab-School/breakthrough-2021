@@ -130,3 +130,8 @@ You can copy the exact CSS selector using the Chrome Developer Tools!
 ## Lab Assignment
 
 [Sports Page](https://classroom.github.com/a/prblzCGo)
+
+
+## Lecture
+
+[Recording](https://us02web.zoom.us/rec/share/9L-dlwqgHrC5J_eoM0zSVDR6DpZGsiY4ERnM21nEUiVNFe3VLaQPAkJ5Y_SMbDPt.6pTeaeYWqubL-vto )
