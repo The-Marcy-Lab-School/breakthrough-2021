@@ -28,6 +28,10 @@
 - default actions
 - callbacks
 
+## Lecture
+
+- [Recording](https://us02web.zoom.us/rec/share/NqkMk-gtC8pYvCcTMjlkWY7QLoVtDDvLhtx_w_g4Am1SxLflle_aNwfWT7WXxo0K.U5IKIJvNwhR9_aRM )
+
 ## Essential Questions
 
 - What are some of the different types of events we might want to respond to when working with code?
