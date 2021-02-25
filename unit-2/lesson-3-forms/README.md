@@ -1,5 +1,14 @@
 # Lesson 3: Forms
 
+## Flow
+
+- Review Events
+- Event Propogation
+- Default Events (click on links, submit on forms)
+- Forms (what are they, why are they important)
+- Form Inputs and attributes they can take in (input, textarea, checkbox, select)
+- accessing value of individual inputs (using .value)
+
 ## Key Terms
 
 - form input
@@ -26,4 +35,5 @@
 
 ## Lab Assignment
 
-Coming soon
+This lab is not going to be turn in
+[Creating A Webpage](https://classroom.github.com/a/ai2J3rgh)
