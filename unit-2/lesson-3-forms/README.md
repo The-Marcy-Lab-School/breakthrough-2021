@@ -8,13 +8,15 @@
 - Forms (what are they, why are they important)
 - Form Inputs and their types (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - Other form input and their attributes (name, placeholder)
-
-# Pickup Here
-
 - accessing value of individual inputs (using .value, on form using name property on inputs, array like access on form ie form[0])
 - submitting form
 - form validation
 - resetting form back to it's initial state (form.reset)
+
+## Lecture
+
+[Recording Part 1](https://us02web.zoom.us/rec/share/eSltVLXbkksY4xYGgPnfTuE5DQQfwIYiYSj8-Gz3Bv8WH5G4nQYDeOw85_-wA87A.fdMREAeHv8n3QD8t)
+[Recording Part 2](https://us02web.zoom.us/rec/share/5pSxu5cdm0tYJBoEPsh5PcPmL1tusXhfn9NKHITaHeXcQiSHUIketho7FPnhBfus.zp4Lf1ltWuTbA7Q8)
 
 ## Key Terms
 

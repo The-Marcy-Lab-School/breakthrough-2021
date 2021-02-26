@@ -30,7 +30,7 @@
 
 ## Lecture
 
-- [Recording](https://us02web.zoom.us/rec/share/NqkMk-gtC8pYvCcTMjlkWY7QLoVtDDvLhtx_w_g4Am1SxLflle_aNwfWT7WXxo0K.U5IKIJvNwhR9_aRM )
+- [Recording Part 1](https://us02web.zoom.us/rec/share/NqkMk-gtC8pYvCcTMjlkWY7QLoVtDDvLhtx_w_g4Am1SxLflle_aNwfWT7WXxo0K.U5IKIJvNwhR9_aRM)
 
 ## Essential Questions
 
