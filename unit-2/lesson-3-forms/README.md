@@ -6,8 +6,15 @@
 - Event Propogation
 - Default Events (click on links, submit on forms)
 - Forms (what are they, why are they important)
-- Form Inputs and attributes they can take in (input, textarea, checkbox, select)
-- accessing value of individual inputs (using .value)
+- Form Inputs and their types (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- Other form input and their attributes (name, placeholder)
+
+# Pickup Here
+
+- accessing value of individual inputs (using .value, on form using name property on inputs, array like access on form ie form[0])
+- submitting form
+- form validation
+- resetting form back to it's initial state (form.reset)
 
 ## Key Terms
 

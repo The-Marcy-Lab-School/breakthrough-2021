@@ -1,6 +1,7 @@
 // event propogation
 
 const handleClick = function (e) {
+  // e.stopPropagation();
   let phase;
 
   switch (e.eventPhase) {
@@ -16,6 +17,8 @@ const handleClick = function (e) {
     default:
   }
 
+  // console.log(this.innerText);
+  console.log("The target element had an id of ", e.target.id);
   console.log(`Box: ${this.id} - ${phase}`);
   // if (e.target.id === this.id) {
   //   console.log(`Box: ${e.target.id} - ${phase}`);
@@ -25,7 +28,9 @@ const handleClick = function (e) {
 const boxes = document.querySelectorAll(".box");
 
 for (let i = 0; i < boxes.length; i++) {
-  boxes[i].addEventListener("click", handleClick, true);
+  if (i !== 1) {
+    boxes[i].addEventListener("click", handleClick);
+  }
 }
 // function run() {
 //   const text = document.getElementById("text");
@@ -60,4 +65,11 @@ for (let i = 0; i < boxes.length; i++) {
 //   // pretending we are hitting an external api
 //   clearTimeout(timeout);
 //   timeout = setTimeout(() => console.log("Hitting an api!"), 500);
+// });
+
+// const link = document.getElementById("link");
+
+// link.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   console.log("I clicked this");
 // });
