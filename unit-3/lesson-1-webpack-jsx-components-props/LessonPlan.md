@@ -122,3 +122,9 @@ What is a compiler? A compiler is a program that converts one language into anot
 The name of the compiler is called Babel https://babeljs.io/docs/en/
 
 LINK: Show online babel editor https://babeljs.io/repl/#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=GYVwdgxgLglg9mABACQKYBt1wBQEpEDeAUIogE6pQhlIA8AJjAG4B8amciA7nGevQEJaAekasA3EQC-RIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=false&targets=&version=7.9.0&externalPlugins=
+
+Lecture
+
+* [Recording Part 1](https://us02web.zoom.us/rec/share/Nf9VammJmrPmvJVV4Dggn2AS9eSEB3XArxUKf0B6wQToFGuGFAG2iMEYuKr6L20.p6yZ2nTs0ERQ5aan)
+* [Recording Part 2](https://us02web.zoom.us/rec/share/rDPNbcTFulfAdHxcSqo6VOIFtGurH5t6xY4PFwmyMvnUliEbLEsgDM1wdERHCHF5.ACZmJsgHD-z-GbZu)
+
