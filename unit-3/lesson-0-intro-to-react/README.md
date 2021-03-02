@@ -38,5 +38,5 @@
 
 ## Lecture
 
-- [Recording Part 1] (https://us02web.zoom.us/rec/share/9wn5DrgOGrQC4yS9PsPgyKfm5R5bebxBPXI3cIQT1xlH6UN-Cmp3wAwiUrdEYXwZ.3uqYMwhI_wj8cuqT )
-- [Recording Part 2] (https://us02web.zoom.us/rec/share/eQhdewb2cYqqnkOijO2g09IGGjVqY3HXMhOjGD0_iEIuNWPK7lEadOB_Fl-41Mfq.65LeAVIozsToWcP_ )
+- [Recording Part 1](https://us02web.zoom.us/rec/share/9wn5DrgOGrQC4yS9PsPgyKfm5R5bebxBPXI3cIQT1xlH6UN-Cmp3wAwiUrdEYXwZ.3uqYMwhI_wj8cuqT)
+- [Recording Part 2](https://us02web.zoom.us/rec/share/eQhdewb2cYqqnkOijO2g09IGGjVqY3HXMhOjGD0_iEIuNWPK7lEadOB_Fl-41Mfq.65LeAVIozsToWcP_)
