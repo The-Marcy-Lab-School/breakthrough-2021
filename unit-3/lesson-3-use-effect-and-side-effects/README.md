@@ -1,25 +1,31 @@
-#  Async and useEffect
+# Async and useEffect
+
+## Flow
+
+- Mention that you can use useState and useReducer in components (there's no limitations, use both if you want)
+- go over notes app
+- useEffect hook
 
 ### Key Terms:
 
-+ side effects
-+ `useEffect`
-+ pure functions
-+ dependency array
-+ `useRef`
+- side effects
+- `useEffect`
+- pure functions
+- dependency array
+- `useRef`
 
 ### Essential Questions:
 
-+ In programming, what are side effects? Why do we want to isolate side effects?
-+ How can the `useEffect` hook help us deal with side effects?
-+ What is the `useRef` hook? Why is this useful?
+- In programming, what are side effects? Why do we want to isolate side effects?
+- How can the `useEffect` hook help us deal with side effects?
+- What is the `useRef` hook? Why is this useful?
 
 ### Learning Assignments:
 
-+ [Pure Functions](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
-+ [useEffect Hook](https://reactjs.org/docs/hooks-effect.html)
-+ [Cleanup Functions from useEffect](https://juliangaramendy.dev/use-promise-subscription/)
-+ [Overview of Exercises](./app/README.md)
+- [Pure Functions](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
+- [useEffect Hook](https://reactjs.org/docs/hooks-effect.html)
+- [Cleanup Functions from useEffect](https://juliangaramendy.dev/use-promise-subscription/)
+- [Overview of Exercises](./app/README.md)
 
 ### Practice:
 
