@@ -8,13 +8,17 @@
 - constructor function
 - component lifecycle methods
 - componentDidMount()
-- componentWillUpdate()
+- shouldComponentUpdate()
 - setState()
 
 ### Essential Questions
 
 - How do class components differ from functional components?
 - What are the benefits and tradeoffs of using hooks within functional components rather than class components?
+
+### Lab Assignment
+
+[Link to Github Classrooms](https://classroom.github.com/a/_gsdTySG)
 
 ### Learning Assigments
 
