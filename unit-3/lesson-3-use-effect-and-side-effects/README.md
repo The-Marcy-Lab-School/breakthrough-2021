@@ -6,6 +6,10 @@
 - go over notes app
 - useEffect hook
 
+## Lecture
+
+- [Recording](https://us02web.zoom.us/rec/share/jBeGAUsGgdvWAUxGM5e2ucUuLS8fEe5oPUJ0eY_7ebyToh9BjgrF34_PKmHAYMTZ.fIhwiSfHbo5fG89D)
+
 ### Key Terms:
 
 - side effects

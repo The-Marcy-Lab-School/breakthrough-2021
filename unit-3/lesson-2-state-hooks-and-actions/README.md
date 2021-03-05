@@ -16,6 +16,10 @@
 - review inputs, and keeping track of them in state
 - Create react app and viewing component in DevTools
 
+## Lecture
+
+- [Recording](https://us02web.zoom.us/rec/share/VKi7v9PWYs8Cc42oyql_l-XrXcDCNV5531t_RAVODTbaymJ7SRGW0RbuxDHgUqsF.jsiF46V7bVzT66Cz)
+
 ### Key Terms:
 
 - state
