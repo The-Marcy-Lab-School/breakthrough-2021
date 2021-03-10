@@ -6,11 +6,12 @@
 - Single-threaded
 - Non-blocking
 - JSON
+- GET Requests
+- Query strings
+- URLs
 - `XMLHttpRequest`
 - Promises
 - Fetch API
-- GET Requests
-- Query strings
 - Browser
 
 ## Essential Questions:
@@ -27,8 +28,7 @@
 
     - # 90 minute playlist, but all very valuable information
 
-
-        * 90 minute playlist, but all very valuable information
+      - 90 minute playlist, but all very valuable information
 
     > > > > > > > f0041a66ed4084d6318f72b64613e91dd629d600
 

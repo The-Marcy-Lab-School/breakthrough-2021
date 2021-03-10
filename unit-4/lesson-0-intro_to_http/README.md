@@ -18,6 +18,8 @@
 - 2FA, requiring password for certain actions (Think Github when you want to delete a repo)
 - Things you should be aware of
   - xsrf, ddos, cross site scripting
+  - localStorage vs storing preferences server side (missyquestion)
+  - localStorage security
 
 ## Key Terms
 
