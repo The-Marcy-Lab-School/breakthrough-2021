@@ -5,40 +5,46 @@ const token =
 
 // With using XMLHttpRequest
 // init xmlhttprequest object
-const xmlhttp = new XMLHttpRequest();
 
 // can change to get different artists
 const artistId = "888";
 const FORMAT = "plain";
 
 const url = `https://api.genius.com/artists/${artistId}?access_token=${token}&text_format=${FORMAT}`;
+
+function makeRequest(method = "GET", apiUrl) {
+  const xmlhttp = new XMLHttpRequest();
+  xmlhttp.open(method, apiUrl);
+
+  // "success" function
+  function reqListener() {
+    console.log(`making http requext with XMLHttpRequest 🤘🏾`);
+    var data = JSON.parse(this.responseText);
+    console.dir(data.response.artist.name);
+  }
+  xmlhttp.onload = reqListener;
+
+  // error function
+  function reqError(err) {
+    console.log("Fetch Error :-S", err);
+  }
+  xmlhttp.onerror = reqError;
+
+  // actually make the request
+  xmlhttp.send();
+}
+
+// makeRequest("GET", url);
 // using artist api
-xmlhttp.open("GET", url);
 
 // We don't need these for this api, but this is how we can set headers
 // in the event we need to set headers
 // xmlhttp.setRequestHeader("Authorization", "Bearer " + token);
+// xmlhttp.setRequestHeader("example", "Bearer " + token);
 // For cors issue
 // xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
 // For accepting different types
 // xmlhttp.setRequestHeader("Accept", "*/*");
-
-// "success" function
-function reqListener() {
-  console.log(`making http requext with XMLHttpRequest 🤘🏾`);
-  var data = JSON.parse(this.responseText);
-  console.dir(data);
-}
-xmlhttp.onload = reqListener;
-
-// error function
-function reqError(err) {
-  console.log("Fetch Error :-S", err);
-}
-xmlhttp.onerror = reqError;
-
-// actually make the request
-xmlhttp.send();
 
 /**
  * Doing the same thing using fetch
@@ -53,20 +59,31 @@ function onError(err) {
   console.dir(err);
 }
 
-fetch(url)
-  .then((response) => response.json())
-  .then(onSuccess)
-  .catch(onError);
+function extractJson(response) {
+  const data = response.json();
+  console.log(data);
+  return data;
+}
+
+// fetch(url)
+//   .then(extractJson)
+//   .then(function (data) {
+//     console.log(data.response.artist.name);
+//   })
+//   .catch(onError)
+//   .finally(() => {
+//     console.log("finished");
+//   });
 
 /**
  * Now we take a look at async/await
  */
-async function getData() {
-  const response = await fetch(url);
-  const data = await response.json();
-  console.log(`So fresh and so clean 😮`);
-  console.dir(data);
-}
+// async function getData() {
+//   const response = await fetch(url);
+//   const data = await response.json();
+//   console.log(`So fresh and so clean 😮`);
+//   console.dir(data);
+// }
 
 // However, how would add error handling here...?
 
@@ -75,11 +92,11 @@ async function getData() {
 
 // Example without using http
 // we don't need the 2nd argument, just demonstrating that it's use
-let waiting = new Promise(function (uponSuccessDoThis, uponFailureDoThis) {
+let waiting = new Promise(function () {
   setTimeout(() => {
     // uponSuccessDoThis();
     // try {
-    //   throw new Error(`DA BOMB DOT COM 🤬💣`);
+    throw new Error(`DA BOMB DOT COM 🤬💣`);
     // } catch (err) {
     //   uponFailureDoThis();
     // }

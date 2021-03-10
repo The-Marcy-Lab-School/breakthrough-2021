@@ -50,6 +50,11 @@
 
 > > > > > > > f0041a66ed4084d6318f72b64613e91dd629d600
 
+## Lecture
+
+[Recording Part 1](https://us02web.zoom.us/rec/share/6MebibYxpTfMq2BXLZg2m5eqvjKvRjNzyj9g5C9kmNUfa20MJCbO-SXWS2gh3CbV.0LOo8rCRK0bNZgQ1)
+[Recording Part 2](https://us02web.zoom.us/rec/share/_3uSA01q05GaHiCJwckg_UbBuQjmHxG3ElE_2XNWj2c05fPSF1Wqg0tM3J8J6NXp.9V69itHJDCWvH4B0)
+
 ## Practice:
 
 [Practice Set](./practice)

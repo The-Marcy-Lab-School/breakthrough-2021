@@ -36,6 +36,14 @@
 
 <sup>[Gretchen, stop trying to make fetch happen. It's not going to happen.](https://www.youtube.com/watch?v=jjt9Qx9MBPk)</sup>
 
+## Code Challenge
+
+[Recording](https://us02web.zoom.us/rec/share/vQu3tp6qaQ6J4QNqFwEYIyXbeL7h-7T602dxQrHlTDdy-tvoQP5lSEyRYCFXoovT.eQla_Bm7Gm0HYynl)
+
+## Lecture
+
+[Recording](https://us02web.zoom.us/rec/share/uAS-Ols4-KCD8-eTkv_obcXz2QazlNH2F7w7sTF0pE03KPa4pyQFmC7hYLd7ovtY.EHHKCrtzShdiHjGj)
+
 ## Homework
 
 [Link](https://classroom.github.com/a/hZRw-tTy)
