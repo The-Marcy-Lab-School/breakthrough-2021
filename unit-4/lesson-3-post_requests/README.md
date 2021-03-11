@@ -1,5 +1,8 @@
 # Lesson 3: Post Requests, Error Handling and Headers
 
+## Lecture
+[Recording](https://us02web.zoom.us/rec/share/FdAFT5VuUbcn-qnB9lnJOyA5TY-MFXJJlvHNDfLVCYnAX7thpl0jpF2RjtQYSkJ6.ptpb-TSVwtkwPfWD)
+
 ### Key Terms:
 
 - Http requests
