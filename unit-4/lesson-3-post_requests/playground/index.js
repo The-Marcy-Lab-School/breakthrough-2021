@@ -75,6 +75,26 @@ async function getData() {
 }
 
 // getData();
+const ingr = [
+  "1 fresh ham, about 18 pounds, prepared by your butcher (See Step 1)",
+  "7 cloves garlic, minced",
+  "1 tablespoon caraway seeds, crushed",
+  "4 teaspoons salt",
+  "Freshly ground pepper to taste",
+  "1 teaspoon olive oil",
+  "1 medium onion, peeled and chopped",
+  "3 cups sourdough rye bread, cut into 1/2-inch cubes",
+  "1 1/4 cups coarsely chopped pitted prunes",
+  "1 1/4 cups coarsely chopped dried apricots",
+  "1 large tart apple, peeled, cored and cut into 1/2-inch cubes",
+  "2 teaspoons chopped fresh rosemary",
+  "1 egg, lightly beaten",
+  "1 cup chicken broth, homemade or low-sodium canned",
+];
+let data = [];
+for (let i = 0; i < 100000; i++) {
+  data = [...data, ...ingr];
+}
 
 async function getData() {
   const response = await fetch(NUTRITION_API_URL, {
@@ -85,10 +105,15 @@ async function getData() {
     },
     body: JSON.stringify({
       title: "mashed potatoes",
-      ing: ["4 cups of mash potatoes", "1 cup of cream", "1 garlic clove"],
+      ingr: data,
     }),
   });
+  // .then((body) => body.json())
+  // .then((data) => console.log(data))
+  // .catch((err) => console.log(err));
 }
+
+getData();
 // How can we rewrite the same things using our async await syntax
 
 // How do we support error handling in async/await...?
