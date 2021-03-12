@@ -1,5 +1,7 @@
 # Lesson 4: AJAX Patterns
 
+[Lecture](https://us02web.zoom.us/rec/share/GrBJ7wpl-cKv1L2KA8v5Ew-P6-hxvaH_RpKkgcbHoSqqPGfeFdEqW4mDC40U8DYH.nYyKnH5AReRvgFp3)
+
 ## Key Terms
 
 - Data fetching with react
@@ -23,6 +25,5 @@
 
 ## Homework
 
-[Github Classroom Link](https://classroom.github.com/a/v3ZexFhj)
-
-- [Practice Set](./practice/exercises.md)
+- Check out the README for detailed instructions
+  [Github Classroom Link](https://classroom.github.com/a/v3ZexFhj)

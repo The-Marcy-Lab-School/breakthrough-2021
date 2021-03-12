@@ -58,11 +58,42 @@ function SongSearch() {
   );
 }
 
+function LikeButton() {
+  const [likes, setLikes] = React.useState(44);
+  const [userClickedLike, setUserHasClickedLike] = React.useState(false);
+
+  const updateLikAmount = (e) => {
+    if (!userClickedLike) {
+      setLikes(likes + 1);
+      setTimeout(() => {
+        console.log("request finished");
+      }, 2000);
+    }
+    setUserHasClickedLike(true);
+  };
+
+  const handleDislike = (e) => {
+    throw new Error(`You can't not like Pringles...They're like SOOOOO fetch!`);
+  };
+
+  return (
+    <div>
+      <p>Pringles are the best chips in the world.</p>
+      <img
+        src="https://media2.giphy.com/media/kE8l1rhNUCFg8FvLJy/giphy.gif"
+        alt="pringles gif"
+      />
+      <p>You Have {likes} amount of Likes</p>
+      <button onClick={updateLikAmount}>LIKE THIS OR ELSE</button>
+      <button onClick={handleDislike}>Dislike</button>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
-      <SongSearch />
-      <ArtistSearch token={token} />
+      <LikeButton />
     </div>
   );
 }
