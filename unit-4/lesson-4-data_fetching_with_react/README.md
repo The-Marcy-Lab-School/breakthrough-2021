@@ -1,6 +1,7 @@
 # Lesson 4: AJAX Patterns
 
 [Lecture](https://us02web.zoom.us/rec/share/GrBJ7wpl-cKv1L2KA8v5Ew-P6-hxvaH_RpKkgcbHoSqqPGfeFdEqW4mDC40U8DYH.nYyKnH5AReRvgFp3)
+[Rendering Patterns](https://us02web.zoom.us/rec/share/1IBSyFy12-48HSUHVNg-GayfW-aSmmG4CJDGOIYFTk3VP8u7GH4P8aGHUqTaErU.v0ZsJw_vVjfxhx06 )
 
 ## Key Terms
 
