@@ -2,6 +2,7 @@
 
 ## Lecture
 [Recording](https://us02web.zoom.us/rec/share/FEsPXozb9msCyKrBidvukVWcuRi_kBJ3qNOKs-bi_yChU3Q9o6T5dBy6oKlY5lli.7VdDd8sIuQxue0Zf)
+[Lab Review] (https://us02web.zoom.us/rec/share/QrQKBJlYGvZYJJW5fAXl1AsBgIj2VkKcejWskCi-cZAAtsxmhS3C2j4fZC7ylCku.M_vQoqKaD6AGtF6f)
 
 ### Key Terms:
 
