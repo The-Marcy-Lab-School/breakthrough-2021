@@ -1,5 +1,8 @@
 # Intro to Node.js and NPM
 
+## Lecture
+[Recording](https://us02web.zoom.us/rec/share/FEsPXozb9msCyKrBidvukVWcuRi_kBJ3qNOKs-bi_yChU3Q9o6T5dBy6oKlY5lli.7VdDd8sIuQxue0Zf)
+
 ### Key Terms:
 
 - Node.js (what is it)
