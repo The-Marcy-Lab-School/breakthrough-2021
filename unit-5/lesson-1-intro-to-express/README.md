@@ -1,9 +1,34 @@
 # Intro to Express
 
+## Lecture
+
+[Recording Part 1](https://us02web.zoom.us/rec/share/vDLAhTPKlK4On0Bz2vVN7LtlnNtZazO0fK0jwDMpbWKOl6x7BOC7elCEtcRe12zL.maZtng7FAgpEwxyW)
+[Recording Part 2](https://us02web.zoom.us/rec/share/paKyarILUlf9nih-i8bdI568HbNX7WMCgE3B0DoUJrLZSrCIsuKsQaGc_ueZlAsy.p3yM7kAFVbMtVAHh)
+
+## Flow
+
+- Starting a web project from scratch
+  - npm registry (https://www.npmjs.com/)
+  - npm init
+  - adding express
+  - adding a route
+  - adding nodemon (https://github.com/remy/nodemon#nodemon)
+  - adding route parameters
+  - Install Postgres!!!!!!!!!!!!!!!!!
+  - handling different types of responses
+- Making a project more flexible
+  - static files (files that aren't dynamic)
+  - Middleware (code that runs in between response/request), (app.use)
+  - templates (handlebars, ejs, jade, etc)
+  - templating engine (https://ejs.co/)
+  - handling querystrings (req.query)
+  - handling form data (POST), (requires middleware), (express.json, express.urlencoded)
+  - REST
+  - express generator
+
 ## Key Terms
 
 - Express
-- Middleware
 - Routing
 - JSON
 - Framework
