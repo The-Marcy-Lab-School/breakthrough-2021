@@ -1,11 +1,14 @@
 // require express
 const express = require("express");
+const cors = require("./cors");
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
 
 app.use(express.static("public"));
+console.log(cors);
+app.use(cors({ url: "/" }));
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
