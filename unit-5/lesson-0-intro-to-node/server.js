@@ -20,10 +20,10 @@ http
     // res.end(html);
 
     // Templating sync
-    // res.writeHead(200, { "Content-Type": "text/html" });
-    // let template = fs.readFileSync(__dirname + "/template.html", "utf8");
-    // template = template.replace("{person}", queryData.person);
-    // res.end(template);
+    res.writeHead(200, { "Content-Type": "text/html" });
+    let template = fs.readFileSync(__dirname + "/template.html", "utf8");
+    template = template.replace("{person}", queryData.person);
+    res.end(template);
 
     // async
     // res.writeHead(200, { "Content-Type": "text/html" });
@@ -33,13 +33,13 @@ http
     // });
 
     // sending json
-    res.writeHead(200, { "Content-Type": "application/json" });
-    const obj = {
-      firstName: "Phil",
-      lastName: "Collins",
-    };
-    const data = JSON.stringify(obj);
-    res.end(data);
+    // res.writeHead(200, { "Content-Type": "application/json" });
+    // const obj = {
+    //   firstName: "Phil",
+    //   lastName: "Collins",
+    // };
+    // const data = JSON.stringify(obj);
+    // res.end(data);
 
     // using streams
     // res.writeHead(200, { "Content-Type": "text/html" });

@@ -16,15 +16,17 @@
   - adding route parameters
   - Install Postgres!!!!!!!!!!!!!!!!!
   - handling different types of responses
-- Making a project more flexible
+- Making a project more robuse
+
   - static files (files that aren't dynamic)
-  - Middleware (code that runs in between response/request), (app.use)
   - templates (handlebars, ejs, jade, etc)
   - templating engine (https://ejs.co/)
   - handling querystrings (req.query)
+
+  - Middleware (code that runs in between response/request), (app.use)
   - handling form data (POST), (requires middleware), (express.json, express.urlencoded)
-  - REST
-  - express generator
+  - express generator (https://expressjs.com/en/starter/generator.html)
+  - debugging with nodemon (using --inspect and attaching to the process)
 
 ## Key Terms
 
