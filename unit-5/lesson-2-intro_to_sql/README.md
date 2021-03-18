@@ -1,5 +1,9 @@
 # Introduction to Databases & SQL
 
+## Lecture
+
+[Recording](https://us02web.zoom.us/rec/share/C0aycuEY0o2WY-DhJwO9xXa85b0rnZOBnQjcCW5vTWD4iQF24IGEqDbQLvjhEMU.JwEcxbRxUJ0x6NlO)
+
 ### Key Terms
 
 - data definition language
@@ -7,6 +11,10 @@
 - relational
 - SQL - Structured Query Language
 - schema
+- unique identifiers (primary key)
+- indexing
+- UML Diagram (fields, fields types)
+- DbDiagram
 
 database - collection of tables
 tables - collection of records (called rows)
