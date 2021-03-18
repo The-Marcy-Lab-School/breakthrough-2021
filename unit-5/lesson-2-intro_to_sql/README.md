@@ -2,7 +2,8 @@
 
 ## Lecture
 
-[Recording](https://us02web.zoom.us/rec/share/C0aycuEY0o2WY-DhJwO9xXa85b0rnZOBnQjcCW5vTWD4iQF24IGEqDbQLvjhEMU.JwEcxbRxUJ0x6NlO)
+[Recording Part 1](https://us02web.zoom.us/rec/share/P5eCo9POqF4juH8Z9TBhAOEGAwIq7xDSusYBFwBjgmJfME405lkcq3-0RDad2lEu.I8evMMWrSENngMI7)
+[Recording Part 2](https://us02web.zoom.us/rec/share/C0aycuEY0o2WY-DhJwO9xXa85b0rnZOBnQjcCW5vTWD4iQF24IGEqDbQLvjhEMU.JwEcxbRxUJ0x6NlO)
 
 ### Key Terms
 

@@ -1,5 +1,8 @@
 const express = require("express");
+const pgPromise = require("pg-promise")();
 
+const user = "erwinssaget";
+const db = pgPromise(`postgresql://${user}@localhost:5432/pets`);
 const app = express();
 
 const PORT = 3000;
@@ -10,22 +13,33 @@ app.set("view engine", "ejs");
 
 app.use(express.urlencoded());
 
-const pets = [];
-
 // /pets
-app.get("/pets", function (req, res) {
-  res.render("pets/index", {
-    pets: pets,
-  });
+app.get("/pets", async function (req, res) {
+  try {
+    const data = await db.any("SELECT * from pets");
+    res.render("pets/index", {
+      pets: data,
+    });
+  } catch (err) {
+    console.log(err);
+    res.send("error occured");
+  }
 });
 
 // SQL
-app.post("/pets", function (req, res) {
-  pets.push(req.body);
+app.post("/pets", async function (req, res) {
   console.log(req.body);
-  res.render("pets/index", {
-    pets: pets,
-  });
+  try {
+    const data = await db.none("INSERT INTO PETS (name, age) VALUES ($1, $2)", [
+      req.body.name,
+      req.body.age,
+    ]);
+    res.render("pets/index", {
+      pets: data,
+    });
+  } catch (err) {
+    res.send(err.message);
+  }
 });
 
 app.listen(3000, () => {
