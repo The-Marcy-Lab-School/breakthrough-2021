@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View All Pets</title>
+  </head>
+  <body>
+    <h1>Pets</h1>
+    <form method="POST" action="/pets">
+      <label for="name">Pet Name:</label>
+      <input autofocus name="name" type="text" id="name" />
+
+      <label for="age">Pet Age:</label>
+      <input name="age" type="number" id="age" />
+
+      <button type="submit">Create Pet</button>
+    </form>
+
+    <ul>
+      <% pets.forEach(function(pet){ %>
+      <li>Pet name is: <%- pet.name %> and pet age is <%- pet.age %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
