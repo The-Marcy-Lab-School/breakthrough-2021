@@ -5,14 +5,15 @@
 - [Slides](https://docs.google.com/presentation/d/1ot29oWZ6ieUa0kLq7jBUfBFL85BounhijWfm0GMTg8w/edit?usp=sharing)
 - [Recording Part 1](https://us02web.zoom.us/rec/share/OV70D3O13B9QFsmCrRMd-kUuc28tiS_IFsgHtzF7lFNV6ic70vtpTkQ47OEmDEkL.6Pq8l8S-t9dHoU6h)
 - [Cheetsheat](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md)
-  **Key Terms**
 
-* relational query
-* inner join
-* outer join
-* aggregate functions
-* schema
-* data modeling
+**Key Terms**
+
+- relational query
+- inner join
+- outer join
+- aggregate functions
+- schema
+- data modeling
 
 **Essential Questions**
 
@@ -33,8 +34,6 @@
   2. [Filter on Multiple Conditions](https://teamtreehouse.com/library/filtering-on-more-than-one-condition)
 
 - Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
-
-- Check out the [SQL Basics Cheat Sheet](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md) to continue internalizing SQL commands.
 
 **Practice**
 
