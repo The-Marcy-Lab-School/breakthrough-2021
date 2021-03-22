@@ -4,7 +4,9 @@
 
 - [Slides](https://docs.google.com/presentation/d/1ot29oWZ6ieUa0kLq7jBUfBFL85BounhijWfm0GMTg8w/edit?usp=sharing)
 - [Recording Part 1](https://us02web.zoom.us/rec/share/OV70D3O13B9QFsmCrRMd-kUuc28tiS_IFsgHtzF7lFNV6ic70vtpTkQ47OEmDEkL.6Pq8l8S-t9dHoU6h)
+- [Recording Part 2](https://us02web.zoom.us/rec/share/SDLLMVWOurmhIXiIPT1V4fTb7qJ8CjTozmhITG6o7jA8LTN18gcz9NYlqzGXiHDF.KvhqpxF1Tl-_SwmN)
 - [Cheetsheat](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md)
+- [JOINS cheatsheet](./joins-cheatsheet.pdf)
 
 **Key Terms**
 
