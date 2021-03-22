@@ -26,7 +26,6 @@ app.get("/pets", async function (req, res) {
   }
 });
 
-// SQL
 app.post("/pets", async function (req, res) {
   console.log(req.body);
   try {
