@@ -2,11 +2,22 @@
 
 ### Guide
 
+**Lecture Part 1**
+
 - [Slides](https://docs.google.com/presentation/d/1ot29oWZ6ieUa0kLq7jBUfBFL85BounhijWfm0GMTg8w/edit?usp=sharing)
 - [Recording Part 1](https://us02web.zoom.us/rec/share/OV70D3O13B9QFsmCrRMd-kUuc28tiS_IFsgHtzF7lFNV6ic70vtpTkQ47OEmDEkL.6Pq8l8S-t9dHoU6h)
 - [Recording Part 2](https://us02web.zoom.us/rec/share/SDLLMVWOurmhIXiIPT1V4fTb7qJ8CjTozmhITG6o7jA8LTN18gcz9NYlqzGXiHDF.KvhqpxF1Tl-_SwmN)
 - [Cheetsheat](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md)
 - [JOINS cheatsheet](./joins-cheatsheet.pdf)
+
+**Lecture Part 2**
+
+- [Recording Part 1](https://us02web.zoom.us/rec/share/6ptUjT-s5scHd9XSE5y_jmzLSxMoptuqcckIZJlCDH2LwsSznkF-YtCj6wzBi4Q7.1g-bVb3nDbZ8X8pp)
+- [Recording Part 2](https://us02web.zoom.us/rec/share/dUxK2pks4zDHUntdDSZtpkf_q1smidtTPAgNzeNqGLvfwjldvMimyfqM5m6y9DS9.5kVxgwIO2q1msJhd)
+- [Recording Part 3](https://us02web.zoom.us/rec/share/avPC2YJxD5l6QDrppvM5TuaryTKEKEGYALcWPxBUhQm3lDX_4n92yDD-PqVwp79X.GY_LntEyPvhzfGEC)
+- [CodeAcademy Manipulation Cheatsheet](https://www.codecademy.com/learn/learn-sql/modules/learn-sql-manipulation/cheatsheet)
+- [CodeAcademy Queries Cheatsheet](https://www.codecademy.com/learn/learn-sql/modules/learn-sql-queries/cheatsheet)
+- [CodeAcademy Aggregate Functions Cheatsheet](https://www.codecademy.com/learn/learn-sql/modules/learn-sql-aggregate-functions/cheatsheet)
 
 **Key Terms**
 
