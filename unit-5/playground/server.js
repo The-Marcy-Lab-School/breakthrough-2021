@@ -7,6 +7,21 @@ const app = express();
 
 const PORT = 3000;
 
+try {
+  db.none(`
+CREATE TABLE IF NOT EXISTS "tasks" (
+  "id" int PRIMARY KEY,
+  "name" varchar NOT NULL,
+  "description" text,
+  "due_date" date,
+  "created_at" timestamp,
+  "updated_at" timestamp
+);
+`);
+} catch (err) {
+  console.log(`err with db`);
+  console.log(err);
+}
 // template engine
 app.set("views", "./views");
 app.set("view engine", "ejs");
