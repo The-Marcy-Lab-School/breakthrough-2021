@@ -3,6 +3,7 @@
 ## Lecture
 
 - [Recording](https://us02web.zoom.us/rec/share/tkpNpfOz_BA62Ql-UQ3ymXoZ97nxwkpFjqMSaYjV5r0hucqFdiiuYekiVKUJEFwb.RvZrMwoYCciSiimV)
+- [Recording](https://us02web.zoom.us/rec/share/ksdDQxOCmPhsmM3lgr0JrM42t_v676DWnLX2DVfbr2HE58VCjvPaYa0oza6NdeM8.145daFK7TdioyEfo)
 
 ### Key Terms:
 
