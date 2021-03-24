@@ -1,5 +1,9 @@
 # Schema Design and REST
 
+## Lecture
+
+- [Recording](https://us02web.zoom.us/rec/share/tkpNpfOz_BA62Ql-UQ3ymXoZ97nxwkpFjqMSaYjV5r0hucqFdiiuYekiVKUJEFwb.RvZrMwoYCciSiimV)
+
 ### Key Terms:
 
 - REST
