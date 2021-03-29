@@ -1,5 +1,8 @@
 # Authorization and Authentication
 
+## Lecture
+[Recording](https://us02web.zoom.us/rec/share/RRyJYx1gCjctzk39w3zKwB6hcZbzyt9HhghQsT4IW7BFahe-BB46Xf0QFGzMrDnM.8kzzaQrh4PLdH7pV)
+
 ## Key Terms:
 - Authentication
 - Authorization

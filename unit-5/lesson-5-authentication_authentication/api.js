@@ -3,13 +3,16 @@ const router = express.Router();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const users = require("./users");
-const { request } = require("express");
 
+// only apply this middleware to our api routes
 router.use(express.json());
 
-const secretKey = "notverysecretorsecure";
-
+// function to generate a jwy
 async function generateJwt(user) {
+  // This is typically a randomly generated string
+  // This should be kept secret
+  const secretKey = "notverysecretorsecure";
+
   const token = await jwt.sign(
     {
       userId: user.id,
@@ -20,6 +23,15 @@ async function generateJwt(user) {
   return token;
 }
 
+// This middleware only runs on this router
+router.use((req, res, next) => {
+  console.log("api router");
+  next();
+});
+
+// we can use middleware to authenticate requests
+// instead of having to redefine this logic in each route
+// handler
 const authenticate = async function (req, res, next) {
   if (!req.headers.authorization) {
     return res.status(401).json({
@@ -46,13 +58,13 @@ const authenticate = async function (req, res, next) {
   }
 };
 
-router.use((req, res, next) => {
-  console.log("api router");
-  next();
-});
-
+// this is here purely to demonstrate how to
+// generate a jwt
+// user is hardcoded here as an example but we typically
+// will pass in the user from a db call
 router.get("/jwt", async (req, res) => {
-  const token = await generateJwt({ id: 1 });
+  const user = { id: Math.floor(Math.random() * 10) };
+  const token = await generateJwt(user);
 
   res.json({
     id: 1,
@@ -60,6 +72,9 @@ router.get("/jwt", async (req, res) => {
   });
 });
 
+// this route is used to generate a token that
+// we can use on subsequent calls to show we are
+// authorized
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
@@ -95,7 +110,9 @@ router.post("/login", async (req, res) => {
 });
 
 router.get("/users", authenticate, async (req, res) => {
+  // comes from out authenticate middleware
   console.log(req.userId);
+
   // if (!req.headers.authorization) {
   //   return res.status(401).json({
   //     message: "Unauthorized",
@@ -118,10 +135,13 @@ router.get("/users", authenticate, async (req, res) => {
   // }
 
   // if (decoded) {
+  // return res.json({
+  //   data: users,
+  // });
+  // }
   return res.json({
     data: users,
   });
-  // }
 });
 
 router.get("/task", (req, res) => {

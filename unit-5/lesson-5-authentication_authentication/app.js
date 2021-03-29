@@ -1,8 +1,12 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
+// Sessions
 const session = require("express-session");
+// Password hasher
 const bcrypt = require("bcrypt");
+// Api router
 const api = require("./api");
+// Our "database"
 const users = require("./users");
 
 // used purely for generating an id
@@ -11,13 +15,17 @@ const { randomBytes } = require("crypto");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// handlebars templating engine
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
-app.use(express.urlencoded({ extended: true }));
-
+// Mount our api subrouter
 app.use("/api", api);
 
+// process forms data
+app.use(express.urlencoded({ extended: true }));
+
+// Configure session middleware
 app.use(
   session({
     resave: false,
@@ -49,6 +57,7 @@ app.post("/login", async (req, res) => {
 
   let match;
 
+  // check password
   try {
     match = await bcrypt.compare(password, user.password);
   } catch (err) {
@@ -63,6 +72,8 @@ app.post("/login", async (req, res) => {
     });
   }
 
+  // add user to our session which forces it to save and send a cookie with
+  // session identifier
   req.session.user = user;
 
   res.redirect("/home");
@@ -76,7 +87,9 @@ app.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
 
   let hashedPassword;
+
   try {
+    // hash our password
     const saltRounds = 10;
     hashedPassword = await bcrypt.hash(password, saltRounds);
   } catch (err) {
@@ -93,6 +106,7 @@ app.post("/register", async (req, res) => {
   console.log(user);
 
   // simulate saving to db
+  // typically we would insert the user into our database
   users.push(user);
 
   req.session.user = user;
@@ -101,10 +115,12 @@ app.post("/register", async (req, res) => {
 });
 
 app.get("/home", (req, res) => {
+  // check if user is in session and if not then we know they aren't authenticated
   if (!req.session.user) {
     return res.status(401).redirect("/login");
   }
 
+  // else send the response
   return res.render("home", {
     user: req.session.user,
   });
