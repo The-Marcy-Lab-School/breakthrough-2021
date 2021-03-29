@@ -1,4 +1,5 @@
 const express = require("express");
+//templating engine
 const exphbs = require("express-handlebars");
 // Sessions
 const session = require("express-session");
@@ -18,6 +19,7 @@ const PORT = process.env.PORT || 3000;
 // handlebars templating engine
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
+app.set("views", "./views");
 
 // Mount our api subrouter
 app.use("/api", api);
@@ -119,6 +121,8 @@ app.get("/home", (req, res) => {
   if (!req.session.user) {
     return res.status(401).redirect("/login");
   }
+
+  // making other db calls
 
   // else send the response
   return res.render("home", {

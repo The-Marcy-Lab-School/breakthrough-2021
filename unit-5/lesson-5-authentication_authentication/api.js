@@ -144,9 +144,31 @@ router.get("/users", authenticate, async (req, res) => {
   });
 });
 
-router.get("/task", (req, res) => {
+router.get("/tasks", authenticate, (req, res) => {
+  // const userId = req.userId;
+
+  // `select * from tasks where user_id = ${userId}`
   res.json({
     data: [],
+  });
+});
+
+router.get("/task/:taskId", authenticate, (req, res) => {
+  // this is what the db query would look like
+  const task = `select * from tasks where id = ${req.params.taskId}`;
+
+  if (!task) {
+    return res.status(404).json({ message: "not found " });
+  }
+
+  if (task.user_id !== req.userId) {
+    return res.status(401).json({
+      message: "not authorized",
+    });
+  }
+
+  return res.json({
+    data: task,
   });
 });
 module.exports = router;
