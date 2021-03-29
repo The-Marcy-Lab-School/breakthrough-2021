@@ -2,6 +2,7 @@
 
 ## Lecture
 [Recording](https://us02web.zoom.us/rec/share/RRyJYx1gCjctzk39w3zKwB6hcZbzyt9HhghQsT4IW7BFahe-BB46Xf0QFGzMrDnM.8kzzaQrh4PLdH7pV)
+[Lab Review](https://us02web.zoom.us/rec/share/_-RX5wPhcDyROCILO90WA9BArwmzT0yJmmbh3DEnuyQhXGCe4nnznBQwVf5foejv.FIx2cHQOpWvD31qE)
 
 ## Key Terms:
 - Authentication
