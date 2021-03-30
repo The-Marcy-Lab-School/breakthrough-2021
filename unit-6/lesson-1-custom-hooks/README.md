@@ -103,3 +103,4 @@ II. Within `src/components/DocumentTitle.js`:
 
 ## Lecture Recording
 [Recording](https://us02web.zoom.us/rec/share/wWxW1EMSqUOYAr1O94w4_I1WMnMBaTVo2PSYw-Jl7TdXEHvYQfkMV2eFfMFRSmUy.ABft65ZceWDs4smf)
+[Lab Review](https://us02web.zoom.us/rec/share/FSl_maAf_7WdimrN_skVcn1rPxDt_8QqKXUH80rVvKoBbqvfbO7Pz0k5uV9qSBQ.LcTWRhVuD6SVuik6)
