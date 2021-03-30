@@ -1,4 +1,4 @@
-# Lesson 8.5 useMemo, useCallback, Custom Hooks
+# Lesson on useMemo, useCallback, Custom Hooks
 
 ## Outline
 
