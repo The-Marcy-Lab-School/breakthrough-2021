@@ -102,3 +102,4 @@ II. Within `src/components/DocumentTitle.js`:
 - the custom hook must update your document title on the browser tab.
 
 ## Lecture Recording
+[Recording](https://us02web.zoom.us/rec/share/wWxW1EMSqUOYAr1O94w4_I1WMnMBaTVo2PSYw-Jl7TdXEHvYQfkMV2eFfMFRSmUy.ABft65ZceWDs4smf)

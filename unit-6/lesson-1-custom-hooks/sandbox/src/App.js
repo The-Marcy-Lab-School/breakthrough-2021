@@ -3,8 +3,6 @@ import "./App.css";
 import useForm from "./hooks/useForm";
 import useDocumentTitle from "./hooks/useDocumentTitle";
 
-// how many times does a component render
-
 function Login() {
   const { form, handleChange } = useForm({
     email: "",
