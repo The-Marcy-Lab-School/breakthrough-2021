@@ -1,5 +1,8 @@
 # Lesson 8.6 -  Client Side Routing with React Router
 
+## Lecture
+[Recording](https://us02web.zoom.us/rec/play/d3bJZLCT2SvjkDKtpSIuzx4JomhiC223GysmNEW7aK8LHTSMphQXYpEpNlXHeU91VEwEwgtPYuMitPZ9.v3NylUaJZtohZsiN?continueMode=true&_x_zm_rtaid=v40B_g2uRsShDc-sv-njhg.1617231538871.3e6a4d7a401f38b4cc2b99247c9a8d98&_x_zm_rhtaid=568)
+
 ## Key Terms
 
 * Client Side Routing
