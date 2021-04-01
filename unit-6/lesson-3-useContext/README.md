@@ -60,3 +60,4 @@
 
 [04.47.20 Lecture Recording](https://us02web.zoom.us/rec/share/-MplIoHv9VtLc5Hp5lP_Za05OaHkeaa80ykf-fFbn81LUhCRRIei831aDe_2NeQ)
 [Actual Lecture Recording](https://us02web.zoom.us/rec/share/XxzcDsQNdT9ZThNQn1RQjJSdstlC18gv11TS0RlPAm_au-EcWpcZVKyEKUlN6l5x.9LBMICDilS3fQUR4)
+[Lab Review](https://us02web.zoom.us/rec/share/ZeJs2bqQFBdv_faFFuFiAqwgUhD1psSYFtsSVC9KmbSh-l0IeG6-QGcUSI-DRVif.cUxOL7v0_s1eJfkI)

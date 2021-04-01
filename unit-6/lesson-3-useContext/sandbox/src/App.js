@@ -7,15 +7,21 @@ import UserContext from "./context/user-context";
 import "./App.css";
 
 function App() {
-  const [user, setUser] = React.useState({ name: "Erwizzle" });
+  const [user, setUser] = React.useState(["one", "two"]);
 
   return (
     <UserContext.Provider value={user}>
       <Router>
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
+          <Route
+            path="/about"
+            render={() => (
+              <div>
+                <Header />
+                <About />
+              </div>
+            )}
+          />
           <Route path="/contact">
             <Contact>
               <Header />

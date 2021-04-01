@@ -1,12 +1,10 @@
-import Header from "../components/Header";
-
 function About(props) {
-  const user = props.user;
-
+  console.log(props);
+  // const Header = props.header;
   return (
     <div>
       About Me
-      <Header user={user} />
+      {/* <Header /> */}
     </div>
   );
 }
